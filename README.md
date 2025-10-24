@@ -2,14 +2,14 @@
 
 Welcome to the unofficial JSON API for Counter-Strike 2. This API provides access to various data aspects of the game, parsed into JSON format for easier integration and use.
 
-Data are sourced from files maintained at [this repository](https://github.com/ByMykel/counter-strike-file-tracker/tree/main/static).
+Data are sourced from files maintained at [this repository](https://github.com/vitordarela/counter-strike-file-tracker/tree/main/static).
 
 ## Usage
 
 This API currently supports **5 core languages** to keep the repository size manageable. To access information in a specific language, replace `{language}` in the URL with one of the supported language codes listed below.
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/{language}
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/{language}
 ```
 
 ## Currently Supported Languages
@@ -44,7 +44,7 @@ The following languages are available but commented out in the codebase:
 ### All items
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/all.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/all.json
 ```
 
 Object with all items accessible by their id.
@@ -52,7 +52,7 @@ Object with all items accessible by their id.
 ### List skins
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/skins.json
 ```
 
 Example response:
@@ -99,7 +99,7 @@ Example response:
         id: "collection-set-overpass",
         name: "The Overpass Collection",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_overpass_png.png",
       },
     ],
     crates: [
@@ -107,7 +107,7 @@ Example response:
         id: "crate-4028",
         name: "ESL One Cologne 2014 Overpass Souvenir Package",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esl14_promo_de_overpass_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_esl14_promo_de_overpass_png.png",
       },
       // ...
     ],
@@ -117,7 +117,7 @@ Example response:
     },
     legacy_model: true,
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
   },
   // ...
 ]
@@ -126,7 +126,7 @@ Example response:
 ### List skins not grouped
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/skins_not_grouped.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/skins_not_grouped.json
 ```
 
 Similar to the previous but in this case is not grouped by wear (Factory New, Field-Tested, etc) and state (normal, stattrak, souvenir).
@@ -180,7 +180,7 @@ Example response:
     },
     legacy_model: true,
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_deagle_hy_ddpat_urb_light_png.png",
   },
   // ...
 ]
@@ -189,7 +189,7 @@ Example response:
 ### List stickers
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/stickers.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/stickers.json
 ```
 
 Example response:
@@ -211,7 +211,7 @@ Example response:
         id: "crate-4015",
         name: "EMS Katowice 2014 Legends",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_kat2014_02_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_sticker_pack_kat2014_02_png.png",
       },
     ],
     tournament_event: "Katowice 2014",
@@ -220,7 +220,7 @@ Example response:
     market_hash_name: "Sticker | Titan | Katowice 2014",
     effect: "Other",
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/emskatowice2014/titan_png.png",
   },
   // ...
 ]
@@ -229,7 +229,7 @@ Example response:
 ### List keychains (charms)
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keychains.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/keychains.json
 ```
 
 Example response:
@@ -251,12 +251,12 @@ Example response:
         id: "collection-set-kc-missinglink",
         name: "Missing Link Charm Collection",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_kc_missinglink_png.png",
       },
     ],
     market_hash_name: "Charm | Lil' Ava",
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/missinglink/kc_missinglink_ava_png.png",
   },
   // ...
 ]
@@ -265,7 +265,7 @@ Example response:
 ### List collections
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collections.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/collections.json
 ```
 
 Example response:
@@ -280,7 +280,7 @@ Example response:
         id: "crate-4017",
         name: "Huntsman Weapon Case",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_3_png.png",
       },
     ],
     contains: [
@@ -294,12 +294,12 @@ Example response:
         },
         paint_index: "303",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_light_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_tec9_cu_tec9_asiimov_light_png.png",
       },
       // ...
     ],
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_3_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_community_3_png.png",
   },
   // ...
 ]
@@ -310,7 +310,7 @@ Example response:
 This list includes cases, capsules, graffiti boxes, music kit boxes and souvenir packages.
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/crates.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/crates.json
 ```
 
 Example response:
@@ -334,7 +334,7 @@ Example response:
         },
         paint_index: "1169",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_berettas_lethal_grin_light_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/default_generated/weapon_elite_dual_berettas_lethal_grin_light_png.png",
       },
       // ...
     ],
@@ -350,19 +350,19 @@ Example response:
         paint_index: null,
         phase: null,
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/weapon_knife_kukri_png.png",
       },
       // ...
     ],
     market_hash_name: "Kilowatt Case",
     rental: true,
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_png.png",
     model_player: "models/props/crates/csgo_drop_crate_community_33.vmdl",
     loot_list: {
       name: "★ Kukri Knife ★",
       footer: "or an Exceedingly Rare Kukri Knife!",
-      image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_rare_item_png.png"
+      image: "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_community_33_rare_item_png.png"
     }
   },
   // ...
@@ -372,7 +372,7 @@ Example response:
 ### List keys
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/keys.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/keys.json
 ```
 
 Example response:
@@ -390,12 +390,12 @@ Example response:
         id: "crate-4001",
         name: "CS:GO Weapon Case",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_valve_1_png.png",
       },
       // ...
     ],
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/tools/weapon_case_key_png.png",
   },
   // ...
 ]
@@ -404,7 +404,7 @@ Example response:
 ### List collectibles
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/collectibles.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/collectibles.json
 ```
 
 Example response:
@@ -425,7 +425,7 @@ Example response:
     genuine: false,
     market_hash_name: null,
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/status_icons/5yearcoin_png.png",
   },
   // ...
 ]
@@ -434,7 +434,7 @@ Example response:
 ### List agents
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/agents.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/agents.json
 ```
 
 Example response:
@@ -456,7 +456,7 @@ Example response:
         id: "collection-set-op11-characters",
         name: "Operation Riptide Agents",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/set_icons/set_op11_characters_png.png",
       },
     ],
     team: {
@@ -465,7 +465,7 @@ Example response:
     },
     market_hash_name: "Bloody Darryl The Strapped | The Professionals",
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/characters/customplayer_tm_professional_varf5_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/characters/customplayer_tm_professional_varf5_png.png",
   },
   // ...
 ]
@@ -474,7 +474,7 @@ Example response:
 ### List patches
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/patches.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/patches.json
 ```
 
 Example response:
@@ -493,7 +493,7 @@ Example response:
     },
     market_hash_name: "Patch | FaZe Clan (Gold) | Stockholm 2021",
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/patches/stockh2021/patch_faze_gold_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/patches/stockh2021/patch_faze_gold_png.png",
   },
   // ...
 ]
@@ -502,7 +502,7 @@ Example response:
 ### List graffiti
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/graffiti.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/graffiti.json
 ```
 
 Example response:
@@ -524,12 +524,12 @@ Example response:
         id: "crate-4234",
         name: "Community Graffiti Box 1",
         image:
-          "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_spray_pack_community_1_png.png",
+          "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapon_cases/crate_spray_pack_community_1_png.png",
       },
     ],
     market_hash_name: "Sealed Graffiti | Chabo",
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community_mix01/chicken_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/stickers/community_mix01/chicken_png.png",
   },
   // ...
 ]
@@ -538,7 +538,7 @@ Example response:
 ### List music kits
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/music_kits.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/music_kits.json
 ```
 
 Example response:
@@ -558,7 +558,7 @@ Example response:
     market_hash_name: "Music Kit | The Verkkars, EZ4ENCE",
     exclusive: false,
     image:
-      "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/theverkkars_01_png.png",
+      "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/theverkkars_01_png.png",
   },
   // ...
 ]
@@ -567,7 +567,7 @@ Example response:
 ### List base weapons
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/base_weapons.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/base_weapons.json
 ```
 
 Example response:
@@ -578,7 +578,7 @@ Example response:
     id: "base_weapon-ct_gloves",
     name: "Default CT Gloves",
     description: "General-purpose tactical combat gloves designed for military or security personnel.",
-    image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
+    image: "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/weapons/base_weapons/ct_gloves_png.png"
   },
   // ...
 ]
@@ -587,7 +587,7 @@ Example response:
 ### List highlights
 
 ```http
-GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highlights.json
+GET https://raw.githubusercontent.com/vitordarela/CSGO-API/main/public/api/en/highlights.json
 ```
 
 ```js
@@ -602,7 +602,7 @@ GET https://raw.githubusercontent.com/ByMykel/CSGO-API/main/public/api/en/highli
     stage: "Quarterfinal",
     map: "de_mirage",
     market_hash_name: "Souvenir Charm | Austin 2025 Highlight | chopper Double Kill",
-    image: "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/aus2025/kc_aus2025_png.png",
+    image: "https://raw.githubusercontent.com/vitordarela/counter-strike-image-tracker/main/static/panorama/images/econ/keychains/aus2025/kc_aus2025_png.png",
     video: "https://cdn.steamstatic.com/apps/csgo/videos/highlightreels/024/081v106_005/024_081v106_005_de_mirage_aus2025_chopper2kvsmouzonmirage1_ww_1080p.webm"
   },
 ]

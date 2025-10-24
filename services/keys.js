@@ -129,7 +129,7 @@ export const getKeys = () => {
         .map(parseItem)
         .filter(({ name, image }) => {
             // Filter repeted keys
-            // https://github.com/ByMykel/CSGO-API/issues/107
+            // https://github.com/vitordarela/CSGO-API/issues/107
             if (seen[image]) {
                 return false;
             }

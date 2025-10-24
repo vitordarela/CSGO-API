@@ -155,7 +155,7 @@ const parseItem = (item, items) => {
             pattern: {
                 id: pattern,
                 // Some names are numbers, let's convert them to strings.
-                // https://github.com/ByMykel/CSGO-API/issues/158
+                // https://github.com/vitordarela/CSGO-API/issues/158
                 name: $t(paintKits[pattern]?.description_tag)?.toString(),
             },
             min_float: paintKits[pattern]?.wear_remap_min,
