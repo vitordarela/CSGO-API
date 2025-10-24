@@ -469,7 +469,7 @@
    "color": "#8847ff"
   },
   "market_hash_name": "Patch | Metal Legendary Eagle Master ★",
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/patches/case_skillgroups/patch_legendaryeaglemaster_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/patches/case_skillgroups/patch_legendaryeaglemaster_png.png",
   "original": {
    "name": "patch_legendaryeaglemaster",
    "image_inventory": "econ/patches/case_skillgroups/patch_legendaryeaglemaster"

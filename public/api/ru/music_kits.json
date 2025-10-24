@@ -11,7 +11,7 @@
   },
   "market_hash_name": null,
   "exclusive": false,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_cs2_01_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/valve_cs2_01_png.png",
   "original": {
    "name": "valve_cs2_01",
    "image_inventory": "econ/music_kits/valve_cs2_01"
@@ -29,7 +29,7 @@
   },
   "market_hash_name": null,
   "exclusive": false,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_02_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/valve_02_png.png",
   "original": {
    "name": "valve_01",
    "image_inventory": "econ/music_kits/valve_02"
@@ -1253,7 +1253,7 @@
   },
   "market_hash_name": null,
   "exclusive": true,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/halo_01_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/halo_01_png.png",
   "original": {
    "name": "halo_01",
    "image_inventory": "econ/music_kits/halo_01"
@@ -1307,7 +1307,7 @@
   },
   "market_hash_name": null,
   "exclusive": true,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hlalyx_01_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/hlalyx_01_png.png",
   "original": {
    "name": "hlalyx_01",
    "image_inventory": "econ/music_kits/hlalyx_01"
@@ -1613,7 +1613,7 @@
   },
   "market_hash_name": null,
   "exclusive": true,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/hades_01_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/hades_01_png.png",
   "original": {
    "name": "hades_01",
    "image_inventory": "econ/music_kits/hades_01"
@@ -2279,7 +2279,7 @@
   },
   "market_hash_name": null,
   "exclusive": false,
-  "image": "https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/econ/music_kits/valve_01_png.png",
+  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/music_kits/valve_01_png.png",
   "original": {
    "name": "valve_01",
    "image_inventory": "econ/music_kits/valve_01"
