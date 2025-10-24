@@ -3,7 +3,7 @@ const getLanguageUrl = language => {
 };
 
 export const getImageUrl = path => {
-    return `https://raw.githubusercontent.com/ByMykel/counter-strike-image-tracker/main/static/panorama/images/${path}_png.png`;
+    return `https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/${path}_png.png`;
 };
 
 export const ITEMS_GAME_URL =
