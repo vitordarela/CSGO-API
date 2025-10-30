@@ -1659,7 +1659,7 @@
    "color": "#8847ff"
   },
   "market_hash_name": "Patch | Tyloo (Gold) | Stockholm 2021",
-  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/patches/stockh2021/patch_tyl_gold_png.png",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWb0N6uNnCftwYnpcjk603kSSLlh5rf-i1X67yqOvRvJfTLXjXIx74h47ZtH3-1l05_sDndmNitdCjBOgQiCMZzROMNrFDmxTDvNXJj",
   "original": {
    "name": "stockh2021_teampatch_tyl_gold",
    "image_inventory": "econ/patches/stockh2021/patch_tyl_gold"
@@ -1727,7 +1727,7 @@
    "color": "#8847ff"
   },
   "market_hash_name": "Patch | Entropiq (Gold) | Stockholm 2021",
-  "image": "https://counter-strike-image-tracker-azure.vercel.app/static/panorama/images/econ/patches/stockh2021/patch_ent_gold_png.png",
+  "image": "https://community.akamai.steamstatic.com/economy/image/i0CoZ81Ui0m-9KwlBY1L_18myuGuq1wfhWSaZgMttyVfPaERSR0Wqmu7LAocGJW3z0i4VeWb0N6uNnCftwYnpcjk603kSSL0kILf-i1X67yoaaE7JaPHDDbDmeghtrI9Hy-wlEgk62vVm9qhdS_FOlNxWMZwRe4OrFDmxaGTJkbA",
   "original": {
    "name": "stockh2021_teampatch_ent_gold",
    "image_inventory": "econ/patches/stockh2021/patch_ent_gold"
